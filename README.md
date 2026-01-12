@@ -11,27 +11,18 @@ This project automates the inspection process by detecting common PCB defects wi
 🎯 Key Objectives
 
 Automate PCB defect detection
-
 Reduce manual inspection effort
-
 Improve detection accuracy and consistency
-
 Provide an easy-to-use web interface
 
 🧠 Defects Detected
 
 The model detects the following 6 PCB defect classes:
-
 missing_hole
-
 mouse_bite
-
 short
-
 open_circuit
-
 spur
-
 spurious_copper
 
 🏗️ System Architecture
@@ -53,9 +44,7 @@ YOLOv8 (Ultralytics)
 🔹 Backend
 
 FastAPI
-
 Uvicorn
-
 Python
 
 🔹 Frontend
@@ -107,11 +96,8 @@ Training Type: Transfer learning + fine-tuning
 Hardware: CPU
 
 📊 Performance Metrics
-
 mAP@0.5: ~91%
-
 Precision: ~92%
-
 Recall: ~86%
 
 Training curves show steady convergence with minimal overfitting.
@@ -202,11 +188,7 @@ Database integration for defect history
 ✅ Conclusion
 
 This project demonstrates a complete AI-based industrial inspection system, integrating:
-
 Deep learning (YOLOv8)
-
 Scalable backend (FastAPI)
-
 User-friendly frontend (Streamlit)
-
 It is industry-ready, extensible, and suitable for real-world deployment.
